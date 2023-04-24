@@ -1,26 +1,18 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Accueil from './components/Accueil';
-import Forfaits from './components/Forfaits';
-import Assistance from './components/Assistance';
-import Depannage from './components/Depannage';
-import Deplacement from './components/Deplacement';
-import Contact from './components/Contact';
-
+import MyRoutes from './Routes';
 
 function App() {
   return (
-    <div id="iss09App">
-      <Navbar />
-      <Accueil />
-      <Forfaits />
-      <Assistance />
-      <Depannage />
-      <Deplacement />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <div id="iss09App">
+        <Navbar />
+        <MyRoutes />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

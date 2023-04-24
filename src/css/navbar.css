@@ -1,0 +1,28 @@
+nav {
+    height: 60px;
+    width: 100%;
+    background: rgb(9, 36, 0);
+    background: linear-gradient(141deg, rgba(9, 36, 0, 1) 0%, rgba(0, 0, 0, 1) 68%, rgba(0, 47, 24, 1) 91%, rgba(0, 0, 0, 1) 100%);
+}
+
+nav a{
+    color: aliceblue;
+}
+nav ul {
+    display: flex;
+    float: right;
+    margin: 17px 25px 0px 0px;
+}
+
+nav ul li{
+    margin: 0px 25px 0px 0px;
+}
+
+#logo_navbar_css{
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    transform: scale(1.2);
+}
+
+

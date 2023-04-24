@@ -1,0 +1,12 @@
+footer {
+    height: 60px;
+    width: 100%;
+    background: rgb(9, 36, 0);
+    background: linear-gradient(141deg, rgba(9, 36, 0, 1) 0%, rgba(0, 0, 0, 1) 68%, rgba(0, 47, 24, 1) 91%, rgba(0, 0, 0, 1) 100%);
+    color: aliceblue;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 17px;
+}

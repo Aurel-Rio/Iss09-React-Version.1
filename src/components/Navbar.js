@@ -10,12 +10,12 @@ const Navbar = () => {
             <nav>
                 <img id="logo_navbar_css" src={logoNavbar} alt="Logo de l'entreprise iss09"></img>
                 <ul>
-                    <li><link to="#">Accueil</link></li>
-                    <li><link to="#">Forfaits</link></li>
-                    <li><link to="#">Assistance</link></li>
-                    <li><link to="#">Dépannage</link></li>
-                    <li><link to="#">Déplacement</link></li>
-                    <li><link to="#">Contact</link></li>
+                    <li><Link to="#">Accueil</Link></li>
+                    <li><Link to="#">Forfaits</Link></li>
+                    <li><Link to="#">Assistance</Link></li>
+                    <li><Link to="#">Dépannage</Link></li>
+                    <li><Link to="#">Déplacement</Link></li>
+                    <li><Link to="#">Contact</Link></li>
                 </ul>
             </nav>
         </header>

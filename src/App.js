@@ -6,13 +6,11 @@ import MyRoutes from './Routes';
 
 function App() {
   return (
-    <Router>
       <div id="iss09App">
         <Navbar />
         <MyRoutes />
         <Footer />
       </div>
-    </Router>
   );
 }
 

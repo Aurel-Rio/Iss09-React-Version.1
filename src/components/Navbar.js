@@ -2,6 +2,12 @@ import React from "react";
 import '../css/navbar.css';
 import logo_navbar from "../img/iss09_logo_navbar.png";
 import { Link } from "react-router-dom";
+import Accueil from './Accueil';
+import Forfaits from './Forfaits';
+import Assistance from './Assistance';
+import Depannage from './Depannage';
+import Deplacement from './Deplacement';
+import Contact from './Contact';
 
 const Navbar = () => {
     const logoNavbar = logo_navbar;

@@ -10,12 +10,12 @@ import Contact from './components/Contact';
 function MyRoutes() {
   return (
     <Routes>
-      <Route exact path="/" component={Accueil} />
-      <Route exact path="/forfaits" component={Forfaits} />
-      <Route exact path="/assistance" component={Assistance} />
-      <Route exact path="/depannage" component={Depannage} />
-      <Route exact path="/deplacement" component={Deplacement} />
-      <Route exact path="/contact" component={Contact} />
+      <Route path="/" element={<Accueil />} />
+      <Route path="/forfaits" element={<Forfaits />} />
+      <Route path="/assistance" element={<Assistance />} />
+      <Route path="/depannage" element={<Depannage />} />
+      <Route path="/deplacement" element={<Deplacement />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   );
 }

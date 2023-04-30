@@ -2,7 +2,7 @@ import React from "react";
 
 const Depannage = () => {
   return (
-    <div id="section_depannage" class="section_txt">
+    <div id="section_depannage" className="section_txt">
       <h2>Dépannage</h2>
 
       <p>

@@ -1,7 +1,8 @@
 import React from "react";
 import '../css/navbar.css';
 import logo_navbar from "../img/iss09_logo_navbar.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import translateTxt from "./translateTxt";
 
 
 const Navbar = () => {
@@ -11,12 +12,12 @@ const Navbar = () => {
             <nav>
                 <img id="logo_navbar_css" src={logoNavbar} alt="Logo de l'entreprise iss09"></img>
                 <ul>
-                    <li><Link to="/">Accueil</Link></li>
-                    <li><Link to="/forfaits">Forfaits</Link></li>
-                    <li><Link to="assistance">Assistance</Link></li>
-                    <li><Link to="depannage">Dépannage</Link></li>
-                    <li><Link to="deplacement">Déplacement</Link></li>
-                    <li><Link to="contact">Contact</Link></li>
+                    <li><NavLink exact to="/">Accueil</NavLink></li>
+                    <li><NavLink onClick={translateTxt} to="/forfaits">Forfaits</NavLink></li>
+                    <li><NavLink to="assistance">Assistance</NavLink></li>
+                    <li><NavLink to="depannage">Dépannage</NavLink></li>
+                    <li><NavLink to="deplacement">Déplacement</NavLink></li>
+                    <li><NavLink to="contact">Contact</NavLink></li>
                 </ul>
             </nav>
         </header>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Assistance = () => {
   return (
-    <div id="section_assistance" class="section_txt">
+    <div id="section_assistance" className="section_txt">
       <h2>Assistance</h2>
 
       <p>

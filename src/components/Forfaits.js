@@ -2,7 +2,7 @@ import React from "react";
 
 const Forfaits = () => {
   return (
-    <div id="section_forfaits" class="section_txt">
+    <div id="section_forfaits" className="section_txt">
       <h2>Forfait Correctif : 45€ en atelier</h2>
       <p>
         Blocage intégral des Publicités intempestives

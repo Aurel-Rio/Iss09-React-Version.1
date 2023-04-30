@@ -2,7 +2,7 @@ import React from "react";
 
 const Accueil = () => {
   return (
-    <div id="section_accueil" class="section_txt">
+    <div id="section_accueil" className="section_txt">
       <h1>Informatique, Services, Saverdun </h1>
       <p>
         Situé en plein coeur de Saverdun dans le 09

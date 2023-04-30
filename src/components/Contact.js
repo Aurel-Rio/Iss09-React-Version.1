@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div id="section_contact" class="section_txt">
+    <div id="section_contact" className="section_txt">
       <h2>Contact</h2>
 
       <p>Adresse : 8 r Lion D'Or, 09700 Saverdun</p>
